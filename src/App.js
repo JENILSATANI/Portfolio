@@ -1,8 +1,10 @@
 
 import React from 'react';
+import axios from 'axios';
 import './App.css';
 import './component/Website.css'
 import './component/Home.css'
+import './component/Services.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import './component/About.css'
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
@@ -10,6 +12,7 @@ import Website from './component/Website';
 import Home from './component/Home';
 import About from './component/About';
 import Services from './component/Services'
+
 
 
 function App() {

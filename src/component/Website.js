@@ -1,8 +1,11 @@
 import React from 'react'
 import { Nav, Button } from 'react-bootstrap'
+import axios from 'axios';
 
 function Website() {
+    
     return (
+
         <div>
             <div class='container-fluid'>
                 <div class="row align-items-center">
@@ -39,7 +42,7 @@ function Website() {
                     </div>
                 </div>
             </div>
-            <div class="slider-area ">
+            {/* <div class="slider-area ">
                 <div class='slider-active slick-initialized slick-slider'>
                     <div class='slick-list draggable'>
                         <div class="slick-track"    >
@@ -87,12 +90,12 @@ s                        </div>
                         <h3>Any Type Of Query<br /> Discussion.</h3>
                         <p style={{fontSize:"25px"}}>Late talk with me</p>
                         <div class="send-cv">
-                            <a href="#"><h1>Jenilsatani97809@gmail.com</h1></a>
+                            <a href="https://webmail.xceltec.in/#1"><h1>Jenilsatani97809@gmail.com</h1></a>
                             <i class="ti-arrow-right"></i>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
 
